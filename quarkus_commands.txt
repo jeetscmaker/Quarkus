@@ -3,3 +3,12 @@ Open your favorite terminal and use JBang to install the Quarkus CLI. You do not
 For Linux, macOS
 	curl -Ls https://sh.jbang.dev | bash -s - trust add https://repo1.maven.org/maven2/io/quarkus/quarkus-cli/
 	curl -Ls https://sh.jbang.dev | bash -s - app install --fresh --force quarkus@quarkusio
+
+Or, you can also install the CLI with SDKMAN!
+	sdk install quarkus
+
+Create the Getting Started Application
+	quarkus create && cd code-with-quarkus
+
+Run the Getting Started Application
+	quarkus dev
